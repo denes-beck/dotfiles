@@ -11,8 +11,12 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim ~/.c
 ## 🛠 Install
 
 ```bash
-
+git clone --depth 1 https://github.com/lost-in-dusk/dotfiles.git ~/.config
 ```
+
+==> Install fisher plugins
+
+==> Install tmux plugins
 
 ## ⚡ Tools & Plugins
 
@@ -37,5 +41,5 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim ~/.c
 [ilancosman/tide@v5](https://github.com/IlanCosman/tide)\
 [jethrokuan/z](https://github.com/jethrokuan/z)\
 [jorgebucaran/nvm.fish](https://github.com/jorgebucaran/nvm.fish)\
-[patrickf1/fzf.fish](https://github.com/PatrickF1/fzf.fish)
-[rbenv/fish-rbenv](https://github.com/rbenv/fish-rbenv)\
+[patrickf1/fzf.fish](https://github.com/PatrickF1/fzf.fish)\
+[rbenv/fish-rbenv](https://github.com/rbenv/fish-rbenv)
