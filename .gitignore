@@ -1,0 +1,19 @@
+# ignore everything
+*
+
+# unignore core files
+!.gitignore
+!README.md
+
+# unignore config.fish
+!fish
+!fish/config.fish
+
+# unignore nvim folder with subdirs
+!nvim
+!nvim/*
+!nvim/**
+
+# unignore tmux.conf
+!tmux
+!tmux/tmux.conf
