@@ -24,10 +24,7 @@ local plugins = {
 	"glepnir/lspsaga.nvim",
 
 	-- Theme
-	{
-		"folke/tokyonight.nvim",
-		lazy = false,
-	},
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 
 	-- Devicons
 	"nvim-tree/nvim-web-devicons",
