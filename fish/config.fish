@@ -1,7 +1,7 @@
 set fish_greeting ""
 
 # nvm setup
-set node_version 18.20.3
+set node_version 22.13.1
 if type -q nvm
     nvm use $node_version -s &>/dev/null
     if test $status -eq 1
@@ -54,6 +54,9 @@ alias k kubectl
 
 # Docker
 alias d docker
+
+# Docker -> Podman
+alias docker podman
 
 # Podman
 alias p podman
