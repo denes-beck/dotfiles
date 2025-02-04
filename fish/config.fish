@@ -55,12 +55,6 @@ alias k kubectl
 # Docker
 alias d docker
 
-# Docker -> Podman
-alias docker podman
-
-# Podman
-alias p podman
-
 # Docker Compose
 alias dc docker-compose
 
