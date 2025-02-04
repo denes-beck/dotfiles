@@ -10,17 +10,20 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim ~/.c
 
 ## 🛠 Install
 
-==> Install [neovim](https://github.com/neovim/neovim)
+==> Install [neovim](https://github.com/neovim/neovim)\
+==> Install [fish-shell](https://github.com/fish-shell/fish-shell)\
+==> Install [fisher](https://github.com/jorgebucaran/fisher)\
+==> Install [tmux](https://github.com/tmux/tmux)\
+==> Install [tpm](https://github.com/tmux-plugins/tpm)\
+==> Manually install the [catppuccin for tmux](https://github.com/catppuccin/tmux) plugin
 
-==> Install [fish-shell](https://github.com/fish-shell/fish-shell)
-
-==> Install [fisher](https://github.com/jorgebucaran/fisher)
-
-==> Install [tmux](https://github.com/tmux/tmux) and its plugins
+Clone the repository:
 
 ```bash
 git clone --depth 1 https://github.com/denesbeck/dotfiles.git ~/.config
 ```
+
+==> Reload Tmux: `tmux source ~/.config/tmux/tmux.conf`
 
 ## ⚡ Tools & Plugins
 
