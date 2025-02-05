@@ -60,3 +60,6 @@ alias dc docker-compose
 
 # Commitizen
 alias c "cz commit"
+
+# fzf.fish keybindings
+fzf_configure_bindings --directory=\cf --git_log=\co --git_status=\cs --processes=\cp
