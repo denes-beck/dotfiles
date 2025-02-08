@@ -2,6 +2,10 @@
 
 My dotfiles for NeoVim, Tmux and Fish Shell.
 
+<img width="1433" alt="image" src="https://github.com/user-attachments/assets/fd9e3258-e8da-467e-9bf9-5162de7429ee" />
+<img width="1433" alt="image" src="https://github.com/user-attachments/assets/de1e7515-72c3-4a2c-98f3-b5e5a436f193" />
+<img width="1433" alt="image" src="https://github.com/user-attachments/assets/267da28d-5718-48f5-a55c-4252b9332bb6" />
+
 ## 🗑️ Clean
 
 ```bash
