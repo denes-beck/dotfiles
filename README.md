@@ -1,6 +1,6 @@
 # 🚀 Dotfiles
 
-My dotfiles for NeoVim, Tmux and Fish Shell.
+My dotfiles for NeoVim, Tmux.
 
 ## 🗑️ Clean
 
@@ -11,8 +11,6 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim ~/.c
 ## 🛠 Install
 
 ==> Install [neovim](https://github.com/neovim/neovim)\
-==> Install [fish-shell](https://github.com/fish-shell/fish-shell)\
-==> Install [fisher](https://github.com/jorgebucaran/fisher)\
 ==> Install [tmux](https://github.com/tmux/tmux)\
 ==> Install [tpm](https://github.com/tmux-plugins/tpm)\
 ==> Manually install the [catppuccin for tmux](https://github.com/catppuccin/tmux) plugin
@@ -23,7 +21,8 @@ Clone the repository:
 git clone --depth 1 https://github.com/denesbeck/dotfiles.git ~/.config
 ```
 
-==> Reload Tmux: `tmux source ~/.config/tmux/tmux.conf`
+==> Reload Tmux: `tmux source ~/.config/tmux/tmux.conf`\
+==> Install [oh-my-zsh](https://ohmyz.sh/)
 
 ## ⚡ Tools & Plugins
 
@@ -32,19 +31,35 @@ git clone --depth 1 https://github.com/denesbeck/dotfiles.git ~/.config
 [bottom](https://github.com/ClementTsang/bottom)\
 [commitizen](https://commitizen-tools.github.io/commitizen/)\
 [eza](https://eza.rocks/)\
-[httpie](https://httpie.io/)\
-[jq](https://github.com/jqlang/jq)\
-[lazygit](https://github.com/jesseduffield/lazygit)\
-[ripgrep](https://github.com/BurntSushi/ripgrep)\
 [fzf](https://github.com/junegunn/fzf)\
+[httpie](https://httpie.io/)\
 [iTerm2](https://iterm2.com/)\
 [iTerm2 colorschemes](https://iterm2colorschemes.com/)\
+[jq](https://github.com/jqlang/jq)\
+[lazygit](https://github.com/jesseduffield/lazygit)\
 [nvm](https://github.com/nvm-sh/nvm)\
-[pyenv](https://github.com/pyenv/pyenv)
+[pyenv](https://github.com/pyenv/pyenv)\
+[ripgrep](https://github.com/BurntSushi/ripgrep)
 
-### 🐟 Fisher plugins
+### 🔌 Oh My Zsh Plugins
 
-[ilancosman/tide@v5](https://github.com/IlanCosman/tide)\
-[jethrokuan/z](https://github.com/jethrokuan/z)\
-[jorgebucaran/nvm.fish](https://github.com/jorgebucaran/nvm.fish)\
-[patrickf1/fzf.fish](https://github.com/PatrickF1/fzf.fish)
+[z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
+
+## 🧙🏻‍♂️ Aliases
+
+```zsh
+alias vi=nvim
+alias ll="eza -l --icons --git -h"
+alias lla="eza -l --icons --git -h -a"
+alias lg=lazygit
+alias u="brew update && brew upgrade && brew cleanup"
+alias gcs="gh copilot suggest"
+alias gce="gh copilot explain"
+alias gem="git commit --allow-empty -m"
+alias tf=terraform
+alias a=ansible
+alias k=kubectl
+alias d=docker
+alias dc="docker-compose"
+alias c="cz commit"
+```
