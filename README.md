@@ -43,7 +43,11 @@ git clone --depth 1 https://github.com/denesbeck/dotfiles.git ~/.config
 
 ### 🔌 Oh My Zsh Plugins
 
-[z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
+[z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)\
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)\
+[zsh-bat](https://github.com/fdellwing/zsh-bat)
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)\
+[zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)
 
 ## 🧙🏻‍♂️ Aliases
 
@@ -51,6 +55,7 @@ git clone --depth 1 https://github.com/denesbeck/dotfiles.git ~/.config
 alias vi=nvim
 alias ll="eza -l --icons --git -h"
 alias lla="eza -l --icons --git -h -a"
+alias cat=bat
 alias lg=lazygit
 alias u="brew update && brew upgrade && brew cleanup"
 alias gcs="gh copilot suggest"
